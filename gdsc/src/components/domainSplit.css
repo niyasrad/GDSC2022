@@ -62,8 +62,8 @@
 
 @media screen and (max-width: 480px) {
   .domain-text {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 24px;
     width: unset;
     text-align: justify;
   }
@@ -72,15 +72,15 @@
   }
   .domain-web,
   .domain-ml {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .domain-uiux {
-    width: 55.43px;
-    height: 60px;
+    width: 37.71px;
+    height: 40px;
   }
   .domain-cloud {
-    width: 63px;
-    height: 47px;
+    width: 41.5px;
+    height: 33.5px;
   }
 }
