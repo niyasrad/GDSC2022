@@ -37,6 +37,7 @@
   gap: calc(15px + (96 - 15) * ((100vw - 320px) / (1280 - 320)));
 }
 .domain-text {
+  font-family: "Roboto";
   margin: 25px;
   width: 70%;
   height: 120px;
@@ -44,6 +45,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  padding-bottom: 220px;
   /* or 167% */
   color: #595959;
 
