@@ -1,11 +1,13 @@
-import "./App.css";
-import MarketingPage from "./components/marketing";
-
+import DomainSplitPage from "./Pages/DomainSplit/DomainSplitPage";
+import Navbar from "./components/Navbar/Navbar";
+import HeroPage from "./Pages/Hero/HeroPage";
 function App() {
   return (
-    <div>
-      <MarketingPage />
-    </div>
+    <>
+      <Navbar />
+      <HeroPage />
+      <DomainSplitPage />
+    </>
   );
 }
 
