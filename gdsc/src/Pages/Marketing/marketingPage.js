@@ -1,6 +1,6 @@
-import "./marketing.css";
-import hatImage from "./../assets/hatImage.png";
-import marketingImage from "./../assets/marketing-image.svg";
+import "./marketingPage.css";
+import hatImage from "../../assets/hatImage.png";
+import marketingImage from "../../assets/marketing-image.svg";
 function MarketingPage() {
   return (
     <div className="marketing-body">

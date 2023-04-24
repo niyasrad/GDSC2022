@@ -1,7 +1,9 @@
 .marketing-body {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 .marketing-header {
   font-family: "Roboto";
@@ -43,9 +45,12 @@
 }
 
 /* media queries */
-@media (max-width: 900px) {
+@media (max-width: 1020px) {
   .cap-icon {
     right: 0;
+  }
+  .marketing-content {
+    width: unset;
   }
 }
 @media (max-width: 768px) {
@@ -59,7 +64,6 @@
     /* width: 100%; */
   }
   .cap-icon {
-    position: absolute;
     top: 0;
     right: 0;
   }
