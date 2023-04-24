@@ -1,12 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-        <h1>Welcome to GDSC</h1>
-    </div>
-  );
+function App(props) {
+  return <>Welcome to GDSC</>;
 }
 
 export default App;
