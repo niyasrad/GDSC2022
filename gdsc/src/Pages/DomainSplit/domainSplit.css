@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .domain-text {
     font-size: 14px;
     line-height: 24px;
