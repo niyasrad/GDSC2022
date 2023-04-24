@@ -1,7 +1,10 @@
 .hero {
+    width:100%;
     display: flex;
     flex-direction: column;
     background-image: url('../../assets/dot-grid.webp');
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .hero_welcome {
@@ -52,4 +55,29 @@
 
 .hero_title p{
     margin-top:20px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero_welcome{
+        padding-right: 20px;
+    }
+    .hero_title h1 {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+    .hero_title h1 span {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .hero_title p{
+        color:#595959;
+        width:70%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .hero_end {
+        margin-top:30px;
+        padding-bottom:200px;
+    }
 }
