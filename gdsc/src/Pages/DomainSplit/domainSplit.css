@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 96px;
+  gap: calc(15px + (96 - 15) * ((100vw - 320px) / (1280 - 320)));
 }
 .domain-text {
   margin: 25px;
@@ -48,4 +48,37 @@
   color: #595959;
 
   text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .domain-heading {
+    /* font-size: 24px; */
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .domain-text {
+    font-size: 14px;
+    line-height: 24px;
+    width: unset;
+    text-align: justify;
+  }
+  .domain-heading {
+    font-size: 24px;
+  }
+  .domain-web,
+  .domain-ml {
+    width: 40px;
+    height: 40px;
+  }
+  .domain-uiux {
+    width: 37.71px;
+    height: 40px;
+  }
+  .domain-cloud {
+    width: 41.5px;
+    height: 33.5px;
+  }
 }
