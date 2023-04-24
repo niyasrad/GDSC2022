@@ -1,18 +1,17 @@
 import "./domainSplit.css";
-import webImage from "./../assets/Web.svg";
-import mlImage from "./../assets/ML.svg";
-import uiuxImage from "./../assets/UIUX.svg";
-import cloudImage from "./../assets/Cloud.svg";
-
+import MLimg from "../../assets/ML.svg";
+import WEBmg from "../../assets/Web.svg";
+import UIUXimg from "../../assets/UIUX.svg";
+import CLOUDimg from "../../assets/Cloud.svg";
 function DomainSplitPage() {
   return (
     <div className="domain-body">
       <div className="domain-heading">All Domains of Technology</div>
       <div className="domain-icons">
-        <img className="domain-web" src={webImage} alt="Web" />
-        <img className="domain-ml" src={mlImage} alt="ML" />
-        <img className="domain-uiux" src={uiuxImage} alt="UIUX" />
-        <img className="domain-cloud" src={cloudImage} alt="Cloud" />
+        <img className="domain-web" src={WEBmg} alt="Web" />
+        <img className="domain-ml" src={MLimg} alt="ML" />
+        <img className="domain-uiux" src={UIUXimg} alt="UIUX" />
+        <img className="domain-cloud" src={CLOUDimg} alt="Cloud" />
       </div>
       <div className="domain-text">
         Discover the latest and most impactful technologies across all domains,
