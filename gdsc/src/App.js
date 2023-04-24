@@ -1,5 +1,10 @@
+import Navbar from "./components/Navbar/Navbar";
 function App(props) {
-  return <>Welcome to GDSC</>;
+  return (
+     <>
+      <Navbar />
+     </>
+  )
 }
 
 export default App;
