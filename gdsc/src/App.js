@@ -13,8 +13,8 @@ function App() {
       <EventInfoPage />
       <DomainSplitPage />
       <MarketingPage />
-      <Faq/>
       <RegisterPage />
+      <Faq/>
     </>
   );
 }
