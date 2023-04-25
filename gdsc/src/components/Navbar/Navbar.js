@@ -43,7 +43,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#info" className="nav-link">
+              <a href="#schedule" className="nav-link">
                 Schedule
               </a>
             </li>
@@ -77,12 +77,12 @@ function Navbar() {
           </div>
           <ul className="sidebar-nav-elements">
             <li>
-              <a href="/" className="nav-link">
+              <a href="#info" className="nav-link">
                 About
               </a>
             </li>
             <li>
-              <a href="#about" className="nav-link">
+              <a href="#schedule" className="nav-link">
                 Schedule
               </a>
             </li>

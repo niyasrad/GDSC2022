@@ -54,6 +54,9 @@
   }
 }
 @media (max-width: 820px) {
+  .marketing-header{
+    margin: 0;
+  }
   .marketing-content {
     flex-direction: column;
   }
