@@ -23,6 +23,7 @@
 }
 
 .event-content p{
+    text-align: justify;
     padding:0 10px;
     font-size: 18px;
     line-height: 30px;

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HeroPage from "./Pages/Hero/HeroPage";
 import EventInfoPage from "./Pages/EventInfo/EventInfoPage";
 import MarketingPage from "./Pages/Marketing/marketingPage";
+import RegisterPage from "./Pages/Register/RegisterPage";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <EventInfoPage />
       <DomainSplitPage />
       <MarketingPage />
+      <RegisterPage />
     </>
   );
 }
