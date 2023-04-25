@@ -1,0 +1,83 @@
+.FAQ{
+    width: 100%;
+}
+
+.accordian{
+    width: 70%;
+    max-width: 640px;
+    margin: auto;
+}
+
+.accordianHeading{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.accordianContent{
+    padding: 14px 5px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+}
+
+.showAccordian{
+    height: 130px;
+    opacity: 1;
+}
+
+.upSideDown{
+    transform: rotateZ(180deg);
+}
+
+
+.downArrow{
+    transition: all 0.4s ease-in;
+}
+
+.FAQ-heading{
+    font-weight: 400;
+    margin: 40px auto;
+    margin-top: 50px;
+}
+
+.empty-container{
+    height: 70px;
+    width: 100%;
+}
+
+.main-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.main-container > img{
+    position: sticky;
+}
+
+.Accordian{
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+    .accordian{
+        width: 90%;
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-container>div>img {
+            display: none;
+    }
+    .Accordian{
+        width: 90%;
+    }
+}
