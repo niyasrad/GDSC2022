@@ -6,7 +6,7 @@
   margin: 10px;
 }
 .marketing-header {
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -33,7 +33,7 @@
   margin: 25px;
 }
 .marketing-description {
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -60,9 +60,7 @@
   .marketing-content {
     width: unset;
   }
-  .marketing-content img {
-    /* width: 100%; */
-  }
+  
   .cap-icon {
     top: 0;
     right: 0;
