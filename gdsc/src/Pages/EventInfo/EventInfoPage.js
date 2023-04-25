@@ -4,7 +4,7 @@ import EventImg from "../../assets/EventInfo.png";
 function EventInfoPage() {
   return (
     <>
-      <div className="event-info">
+      <div className="event-info" id='info'>
         <div className="event-info-left">
           <h1>What is ProductForge?</h1>
           <div className="event-content">
