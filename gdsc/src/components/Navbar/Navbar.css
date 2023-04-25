@@ -52,18 +52,48 @@ span {
     margin-right: 5px;
 }
 
+
+.sidebar-open {
+    left: 0;
+}
+
+.mobile-nav__wrapper {
+    backdrop-filter: blur(2px);
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 120vh;
+    
+}
+
 @media (max-width: 850px) {
+
+    .title {
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 14px;
+
+    }
+
     .menu-icon {
         display: block;
         cursor: pointer;
     }
 
     .nav-elements {
-      flex-direction:column ;
-      gap:20px
+        flex-direction: column;
+        gap: 20px
     }
 
-    nav{
+    i {
+        margin-left: 50px;
+    }
+
+    nav {
         margin: 15px 10px;
     }
 
@@ -71,5 +101,78 @@ span {
         margin-right: unset;
         margin-top: 22px;
     }
-    
+
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    height: 100vh;
+    width: 200px;
+    background-color: #fff;
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+.hide{
+    display: none;
+}
+
+
+.sidebar-open {
+    left: 0;
+}
+
+.sidebar-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 860px) {
+    .sidebar-toggle {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .nav-elements {
+        display: none;
+    }
+
+    .sidebar-nav-elements {
+        display: flex;
+        padding-top: 50px!important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .sidebar-nav-elements li {
+        margin: 10px 0;
+    }
+
+    .sidebar-nav-elements li a {
+        color: #595959;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .sidebar-nav-elements li a:hover {
+        background-color: #f2f2f2;
+    }
 }

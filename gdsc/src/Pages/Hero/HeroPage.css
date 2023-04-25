@@ -59,6 +59,7 @@
 
 @media screen and (max-width: 768px) {
     .hero_welcome{
+        justify-content: space-between;
         padding-right: 20px;
     }
     .hero_title h1 {
@@ -77,6 +78,7 @@
         text-align: center;
     }
     .hero_end {
+        justify-content: space-between;
         margin-top:30px;
         padding-bottom:150px;
     }
