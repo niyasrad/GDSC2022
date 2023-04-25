@@ -4,6 +4,7 @@ import HeroPage from "./Pages/Hero/HeroPage";
 import EventInfoPage from "./Pages/EventInfo/EventInfoPage";
 import MarketingPage from "./Pages/Marketing/marketingPage";
 import Faq from "./Pages/FAQ/Faq";
+import RegisterPage from "./Pages/Register/RegisterPage";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <DomainSplitPage />
       <MarketingPage />
       <Faq/>
+      <RegisterPage />
     </>
   );
 }

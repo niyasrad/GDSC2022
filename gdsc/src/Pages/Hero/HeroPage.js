@@ -6,11 +6,11 @@ import arrow from "../../assets/Arrow.png";
 import post from "../../assets/post.png";
 function HeroPage() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="hero_welcome">
-        <img src={scissors} alt="scissor" />
+        <img src={scissors} alt="scissor" className="image" />
         <p>Welcome to</p>
-        <img src={hourglass} alt="hourglass" />
+        <img src={hourglass} alt="hourglass" className="image"/>
       </div>
       <div className="hero_title">
         <div>
@@ -24,9 +24,9 @@ function HeroPage() {
         </div>
       </div>
       <div className="hero_end">
-        <img src={note} alt="note" />
-        <img src={arrow} alt="arrow" />
-        <img src={post} alt="post" />
+        <img src={note} alt="note" className="image" />
+        <a href="#info"><img src={arrow} alt="arrow" className="arrow"/></a>
+        <img src={post} alt="post" className="image" />
       </div>
     </div>
   );
