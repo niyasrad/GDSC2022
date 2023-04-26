@@ -5,7 +5,7 @@ import UIUXimg from "../../assets/UIUX.svg";
 import CLOUDimg from "../../assets/Cloud.svg";
 function DomainSplitPage() {
   return (
-    <div className="domain-body">
+    <div className="domain-body" id='domains'>
       <div className="domain-heading">All Domains of Technology</div>
       <div className="domain-icons">
         <img className="domain-web" src={WEBmg} alt="Web" />
