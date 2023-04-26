@@ -8,7 +8,7 @@ import Footer from "./Pages/Footer/Footer";
 import RegisterPage from "./Pages/Register/RegisterPage";
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <HeroPage />
       <EventInfoPage />
@@ -17,7 +17,7 @@ function App() {
       <RegisterPage />
       <Faq/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

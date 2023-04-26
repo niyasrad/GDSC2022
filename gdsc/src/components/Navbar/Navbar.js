@@ -44,7 +44,7 @@ function Navbar() {
       <div className="logo">
         <img src={logo} alt="logo" />
         <h4 className="title">
-          Google Developer Student Clubs <span>SVCE</span>
+          <span>GDSC SVCE</span>
         </h4>
       </div>
       <div>

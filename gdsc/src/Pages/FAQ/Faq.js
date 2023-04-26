@@ -13,17 +13,16 @@ function Faq() {
             <img src={cup} alt="google cup" />
         </div>
         <div className="Accordian">
-          <Accordian title={"What is Product Forge?"} content={"Anyone who is interested in developing their skills in product development and technology is welcome to attend. This includes students, professionals, and anyone with an interest in the field."}/>
-          <Accordian title={"When and where is ProductForge taking place?"} content={"Anyone who is interested in developing their skills in product development and technology is welcome to attend. This includes students, professionals, and anyone with an interest in the field."}/>
-          <Accordian title={"What topics will be covered at ProductForge?"} content={"Anyone who is interested in developing their skills in product development and technology is welcome to attend. This includes students, professionals, and anyone with an interest in the field."}/>
-          <Accordian title={"How much does it cost to attend ProductForge?"} content={"Anyone who is interested in developing their skills in product development and technology is welcome to attend. This includes students, professionals, and anyone with an interest in the field."}/>
-          <Accordian title={"Who can attend ProductForge?"} content={"Anyone who is interested in developing their skills in product development and technology is welcome to attend. This includes students, professionals, and anyone with an interest in the field."}/>
+          <Accordian title={"What is Product Forge?"} content={"ProductForge is an end-to-end life cycle wherein shortlisted participants will learn how to transform an idea to a scalable product through a series of segmented Workshops cum a collective Hackathon event. What is a collective hackathon? Join us and find out! :)"}/>
+          <Accordian title={"When and where is ProductForge taking place?"} content={"ProductForge will be a two-day event, taking place at the Placement Cell Hall of Sri Venkateswara College Of Engineering from the morning of 6th May 2023 to the morning of 7th May 2023."}/>
+          <Accordian title={"What topics will be covered at ProductForge?"} content={"The fundamental idea of ProductForge is to view products through a lens of Artificial Intelligence. We utilize the technological domains of Web Development, Cloud Computing, UI/UX and Marketing to make them useable, scalable, and sellable."}/>
+          <Accordian title={"How much does it cost to attend ProductForge?"} content={"To participate in the event, students will get shortlisted through merit and the event will cost Rs X, Food and Snacks will be provided to the participants on a regular to the participants."}/>
+          <Accordian title={"Who can attend ProductForge?"} content={"We are in search of passionate, hard working talent groups who want to learn and practically implement their ideas to real life products. If you feel this is a good fit for you, check out our registration panel."}/>
         </div>
         <div>
             <img src={medal} alt="google medal"/>
         </div>
       </div>
-      <div className="empty-container"></div>
     </div>
   )
 }

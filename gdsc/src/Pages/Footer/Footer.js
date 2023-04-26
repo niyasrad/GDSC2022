@@ -32,16 +32,16 @@ function Footer() {
                 <div className="footer-navigation">
                     <h3>GDSC</h3>
                     <p>About</p>
-                    <p>Conatct</p>
+                    <p>Contact</p>
                     <p>FAQ</p>
                     <p>Help</p>
                 </div>
                 <div className="contact">
                     <h3>Contact</h3>
                     <p>Aryan</p>
-                    <p>+91 9x9x9x9x9x</p>
-                    <p>Aryan</p>
-                    <p>+91 9x9x9x9x9x</p>
+                    <p>+91 9940647447</p>
+                    <p>Niyas</p>
+                    <p>+91 8148100828</p>
                 </div>
             </div>
         </div>

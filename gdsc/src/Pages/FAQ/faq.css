@@ -6,9 +6,13 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     max-width: 640px;
     margin: auto;
+}
+.Accordian {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .accordianHeading{
@@ -30,7 +34,7 @@
 }
 
 .showAccordian{
-    height: 130px;
+    height: auto;
     opacity: 1;
 }
 
@@ -87,7 +91,7 @@
         font-size: smaller;
     }
     .showAccordian {
-        height: 110px;
+        height: auto;
     }
 }
 
@@ -96,6 +100,6 @@
         font-size: 10px;
     }
     .showAccordian {
-        height: 100px;
+        height: auto;
     }
 }
