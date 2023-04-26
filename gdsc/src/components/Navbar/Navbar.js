@@ -16,6 +16,19 @@ function Navbar() {
     setShowSidebar(!showSidebar);
   };
 
+  //if user clicks outside the navbar close it
+  useEffect(() => {
+    const closeNavbar=(e)=>{
+      if(e.srcElement.className!=="fa-solid fa-bars"){
+        setShowSidebar(false);
+      }
+    }
+    document.body.addEventListener("click",closeNavbar);
+    return ()=>{
+      document.body.removeEventListener("click",closeNavbar);
+    }
+  },[])
+
   useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -77,22 +90,22 @@ function Navbar() {
           </div>
           <ul className="sidebar-nav-elements">
             <li>
-              <a href="#info" className="nav-link">
+              <a href="#info" className="nav-link" onClick={toggleSidebar}>
                 About
               </a>
             </li>
             <li>
-              <a href="#schedule" className="nav-link">
+              <a href="#schedule" className="nav-link" onClick={toggleSidebar}>
                 Schedule
               </a>
             </li>
             <li>
-              <a href="#contact" className="nav-link">
+              <a href="#contact" className="nav-link" onClick={toggleSidebar}>
                 Contact
               </a>
             </li>
             <li>
-              <a href="#register">
+              <a href="#register" onClick={toggleSidebar}>
                 <Button>Register</Button>
               </a>
             </li>
