@@ -22,6 +22,10 @@
     line-height: 28px;
 }
 
+.image {
+    width: 100px;
+}
+
 .hero_end {
     margin-top: 150px;
     display: flex;
