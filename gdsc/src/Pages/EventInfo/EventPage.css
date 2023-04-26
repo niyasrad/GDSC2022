@@ -2,8 +2,14 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding-left: 50px;
     margin-bottom: 50px;
+    min-height: 70vh;
+}
+.event-info__content {
+    max-width: 60vw;
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
 .event-info-left h1{
     font-size: 36px;
@@ -13,8 +19,7 @@
 }
 
 .event-info-left {
-    width:610px;
-    padding-right: 20px;
+    max-width: 50%;
 }
 
 .event-content{
@@ -25,7 +30,7 @@
 .event-content p{
     text-align: justify;
     padding:0 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color:#595959;
 }
@@ -35,25 +40,36 @@
 }
 
 .event-info-right{
-    margin-right: 50px;
-    margin-left: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .event-info-right img{
-    width:450px;
-    height: 420px;
+    width: 100%;
+    object-fit: contain;
 }
 
-@media screen and (max-width:768px){
+@media only screen and (max-width: 1300px) {
+    .event-info__content {
+        max-width: 80vw;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:990px){
     .event-info{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         padding:10px 10px;
     }
-    .event-info-left{
-        width:350px;
-        padding-right: 0px;
+    .event-info__content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .event-info-left {
+        max-width: 100%;
     }
     .event-info-right{
         margin-left: 0px;
@@ -67,13 +83,19 @@
         text-align: center;
         font-size: 24px;
         line-height: 30px;
-        margin-bottom: 20px;
     }
     .event-content{
         width: 100%;
     }
     .event-content p{
         font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .event-content p{
+        font-size: 14px;
         line-height: 24px;
     }
 }
