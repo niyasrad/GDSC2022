@@ -68,16 +68,31 @@
 
 @media only screen and (max-width: 600px) {
     .accordian{
-        width: 90%;
+        width: 90%; 
         max-width: none;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 860px) {
     .main-container>div>img {
             display: none;
     }
     .Accordian{
         width: 90%;
+    }
+    .accordianContent{
+        font-size: smaller;
+    }
+    .showAccordian {
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .accordianContent{
+        font-size: 10px;
+    }
+    .showAccordian {
+        height: 100px;
     }
 }
