@@ -8,9 +8,9 @@ function RegisterPage() {
       <div className="register__content"> 
         <motion.div 
           className="wrapper"
-          initial={{ y: 100, opacity: 0 }}
+          initial={{ opacity: 0 }}
           transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
-          whileInView={{ y: 0, opacity: 1 }}
+          whileInView={{ opacity: 1 }}
         >
           <div className="register__header">
             <h1>Join Our Flagship Event 🔥</h1>
@@ -36,9 +36,9 @@ function RegisterPage() {
         </motion.div>
         <motion.div 
           className="register__container__right"
-          initial={{ y: 100, opacity: 0 }}
+          initial={{ opacity: 0 }}
           transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
-          whileInView={{ y: 0, opacity: 1 }}
+          whileInView={{ opacity: 1 }}
         >
           <img src={RegisterIMG} alt="" />
         </motion.div>

@@ -9,9 +9,9 @@ function EventInfoPage() {
         <div className="event-info__content">
           <motion.div 
             className="event-info-left"
-            initial={{ y: 100, opacity: 0 }}
+            initial={{ opacity: 0 }}
             transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 1.4}}
-            whileInView={{ y: 0, opacity: 1 }}
+            whileInView={{ opacity: 1 }}
           >
             <h1>What is ProductForge?</h1>
             <div className="event-content">
@@ -31,9 +31,9 @@ function EventInfoPage() {
           </motion.div>
           <motion.div 
             className="event-info-right"
-            initial={{ y: 100, opacity: 0 }}
+            initial={{ opacity: 0 }}
             transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 1.4}}
-            whileInView={{ y: 0, opacity: 1 }}
+            whileInView={{ opacity: 1 }}
           >
             <img src={EventImg} className alt="event-img" />
           </motion.div>

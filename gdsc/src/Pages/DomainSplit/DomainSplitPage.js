@@ -9,9 +9,9 @@ function DomainSplitPage() {
     <div className="domain-body" id='domains'>
       <motion.div 
         className="domain-body__content"
-        initial={{ y: 100, opacity: 0 }}
+        initial={{ opacity: 0 }}
         transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
-        whileInView={{ y: 0, opacity: 1 }}
+        whileInView={{ opacity: 1 }}
       >
         <h1 className="domain-heading">All Domains of Technology</h1>
         <div className="domain-icons">

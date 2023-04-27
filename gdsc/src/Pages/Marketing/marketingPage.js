@@ -7,9 +7,9 @@ function MarketingPage() {
     <div className="marketing-body">
       <motion.div 
         className="marketing-body__content" 
-        initial={{ y: 100, opacity: 0 }}
+        initial={{ opacity: 0 }}
         transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
-        whileInView={{ y: 0, opacity: 1 }}
+        whileInView={{ opacity: 1 }}
       >
         <div className="marketing-header">Marketing and Pitching ⚡️</div>
         <div className="cap-icon">

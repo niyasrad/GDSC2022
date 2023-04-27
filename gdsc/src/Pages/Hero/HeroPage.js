@@ -15,9 +15,9 @@ function HeroPage() {
       </div>
       <motion.div 
         className="hero_title"
-        initial={{ y: 100, opacity: 0 }}
+        initial={{ opacity: 0 }}
         transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
-        whileInView={{ y: 0, opacity: 1 }}
+        whileInView={{ opacity: 1 }}
       >
         <div>
           <h1 >
@@ -31,7 +31,14 @@ function HeroPage() {
       </motion.div>
       <div className="hero_end">
         <img src={note} alt="note" className="image" />
-        <a href="#info"><img src={arrow} alt="arrow" className="arrow"/></a>
+        <motion.a  
+          href="#info"
+          initial={{ opacity: 0 }}
+          transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
+          whileInView={{ opacity: 1 }}
+        >
+          <img src={arrow} alt="arrow" className="arrow"/>
+        </motion.a>
         <img src={post} alt="post" className="image" />
       </div>
     </div>
