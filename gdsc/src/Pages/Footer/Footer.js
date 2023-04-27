@@ -3,7 +3,7 @@ import './footer.css'
 import logo from "../../assets/logo.svg";
 import { GoLocation } from 'react-icons/go'
 import { AiFillInstagram } from 'react-icons/ai';
-import { BsDiscord, BsFacebook, BsTwitter, BsWhatsapp } from "react-icons/bs"
+import { BsDiscord, BsTwitter } from "react-icons/bs"
 
 function Footer() {
   return (
@@ -21,20 +21,17 @@ function Footer() {
                     <p>Sriperumbudur, TamilNadu, IN</p>
                 </div>
                 <div className="icons">
-                    <AiFillInstagram size={28} color='#595959' />
-                    <BsFacebook size={24} color='#595959' />
-                    <BsTwitter size={24} color='#595959' />
-                    <BsWhatsapp size={24} color='#595959' />
-                    <BsDiscord size={24} color='#595959' />
+                    <AiFillInstagram size={28} color='#595959' style={{cursor:"pointer"}}/>
+                    <BsTwitter size={24} color='#595959' style={{cursor:"pointer"}}/>
+                    <BsDiscord size={24} color='#595959' onClick={()=>{window.open("https://discord.gg/2eGAyK7YkY","blank")}} style={{cursor:"pointer"}}/>
                 </div>
             </div>
             <div className="contact-us">
                 <div className="footer-navigation">
                     <h3>GDSC</h3>
-                    <p>About</p>
-                    <p>Contact</p>
-                    <p>FAQ</p>
-                    <p>Help</p>
+                    <a href="#info">About</a>
+                    <a href="#schedule">Schedule</a>
+                    <a href="#contact">Contact</a>
                 </div>
                 <div className="contact">
                     <h3>Contact</h3>
