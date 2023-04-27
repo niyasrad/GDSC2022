@@ -2,7 +2,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 90vh;
 }
 .marketing-body__content {
   display: flex;

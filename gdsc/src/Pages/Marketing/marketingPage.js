@@ -1,10 +1,16 @@
 import "./marketingPage.css";
 import hatImage from "../../assets/hatImage.png";
 import marketingImage from "../../assets/marketing-image.svg";
+import { motion } from 'framer-motion'
 function MarketingPage() {
   return (
     <div className="marketing-body">
-      <div className="marketing-body__content">
+      <motion.div 
+        className="marketing-body__content" 
+        initial={{ y: 100, opacity: 0 }}
+        transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
+        whileInView={{ y: 0, opacity: 1 }}
+      >
         <div className="marketing-header">Marketing and Pitching ⚡️</div>
         <div className="cap-icon">
           <img src={hatImage} alt="Hat" />
@@ -21,7 +27,7 @@ function MarketingPage() {
             prizes.
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

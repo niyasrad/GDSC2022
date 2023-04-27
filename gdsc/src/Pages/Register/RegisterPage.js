@@ -1,11 +1,17 @@
 import "./RegisterPage.css";
 import Button from "../../components/Button/Button";
 import RegisterIMG from "../../assets/register.png";
+import { motion } from 'framer-motion'
 function RegisterPage() {
   return (
     <div className="register" id="schedule">
       <div className="register__content"> 
-        <div className="wrapper">
+        <motion.div 
+          className="wrapper"
+          initial={{ y: 100, opacity: 0 }}
+          transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
+          whileInView={{ y: 0, opacity: 1 }}
+        >
           <div className="register__header">
             <h1>Join Our Flagship Event 🔥</h1>
           </div>
@@ -27,10 +33,15 @@ function RegisterPage() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="register__container__right">
+        </motion.div>
+        <motion.div 
+          className="register__container__right"
+          initial={{ y: 100, opacity: 0 }}
+          transition={{ type: "spring", bounce: 0.4,ease: "easeInOut", duration: 2}}
+          whileInView={{ y: 0, opacity: 1 }}
+        >
           <img src={RegisterIMG} alt="" />
-        </div>
+        </motion.div>
       </div>
       
     </div>
