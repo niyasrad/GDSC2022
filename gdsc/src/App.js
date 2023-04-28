@@ -10,13 +10,15 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <HeroPage />
-      <EventInfoPage />
-      <DomainSplitPage />
-      <MarketingPage />
-      <RegisterPage />
-      <Faq/>
-      <Footer/>
+      <div className="app__content">
+        <HeroPage />
+        <EventInfoPage />
+        <DomainSplitPage />
+        <MarketingPage />
+        <RegisterPage />
+        <Faq/>
+        <Footer/>
+      </div>
     </div>
   );
 }

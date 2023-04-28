@@ -13,6 +13,27 @@
   position: relative;
   max-width: 60vw;
 }
+.marketing-body__boxes {
+  width: 100%;
+  position: absolute;
+  gap: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.marketing-body__box {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.marketing-body__box--left {
+  align-self: flex-start;
+}
+.marketing-body__box--right {
+  height: 150px;
+  width: 150px;
+  align-self: flex-end;
+}
 .marketing-header {
   font-family: "Poppins";
   font-style: normal;

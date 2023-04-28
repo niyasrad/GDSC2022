@@ -27,7 +27,7 @@ function EventInfoPage() {
                 you to learn and gain connections from Industries.
               </p>
             </div>
-            <Button>Learn more</Button>
+            <a href="#domains"><Button>Learn more</Button></a>
           </motion.div>
           <motion.div 
             className="event-info-right"
